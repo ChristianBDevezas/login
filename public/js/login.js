@@ -17,7 +17,7 @@ const receberRetornoServidor = () => {
 
 const redirecionar = () => {
     const path = location.pathname.split('/').slice(0, 1);
-    path.push('index.html');
+    path.push('/login/index.html');
     location.href = location.origin + path.join('/');
     // location.href = path.join('/');
     console.log(location.href);
