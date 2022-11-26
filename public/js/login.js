@@ -2,12 +2,12 @@ let loginForm = document.querySelector('.login');
 let fieldEmail = document.getElementById('email-login');
 let fieldSenha = document.getElementById('password');
 
-// console.log(location.origin);
-// console.log(location.pathname);
-// console.log(location.pathname.split('/'));
-// console.log(location.pathname.split('/').slice(0, 1));
-// console.log(location.pathname.split('/')[1]);
-// console.log(location.origin + '/' + 'index.html');
+console.log(location.origin);
+console.log(location.pathname);
+console.log(location.pathname.split('/'));
+console.log(location.pathname.split('/').slice(0, 1));
+console.log(location.pathname.split('/')[1]);
+console.log(location.origin + '/' + 'index.html');
 
 const receberRetornoServidor = () => {
     return Promise.resolve({
@@ -20,6 +20,7 @@ const redirecionar = () => {
     path.push('index.html');
     location.href = location.origin + path.join('/');
     // location.href = path.join('/');
+    console.log(location.href);
 
     // const newPage = '/index.html';
     // location.href = location.origin + newPage;

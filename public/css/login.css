@@ -29,7 +29,7 @@ form {
     flex-direction: column;
     text-align: center;
     padding: 85px 100px;
-    background: url("/public/img/login/login.png") center no-repeat;
+    background: url("../img/login/login.png") center no-repeat;
     background-size: cover;
     width: 100%;
     font-size: 14px;
