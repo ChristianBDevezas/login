@@ -16,14 +16,14 @@ const receberRetornoServidor = () => {
 }
 
 const redirecionar = () => {
-    const path = location.pathname.split('/').slice(0, 1);
-    // const path = location.pathname.split('/').slice(0, 2);
-    path.push('index.html');
-    location.href = location.origin + path.join('/');
-    // location.href = path.join('/');
+    // const path = location.pathname.split('/').slice(0, 1);
+    // // const path = location.pathname.split('/').slice(0, 2);
+    // path.push('index.html');
+    // location.href = location.origin + path.join('/');
+    // // location.href = path.join('/');
 
-    // const newPage = '/index.html';
-    // location.href = location.origin + newPage;
+    const newPage = '/index.html';
+    location.href = location.origin + newPage;
 }
 
 loginForm.addEventListener('submit', function(event) {
