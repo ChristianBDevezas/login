@@ -1,0 +1,93 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.invisible {
+    display: none !important;
+}
+
+.containerlabel > div {
+    color: red;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 85px 100px;
+    background: url("../img/login/login.png") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    font-size: 14px;
+    line-height: 3rem;
+    position: relative;
+}
+
+.card {
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2);
+    padding: 35px 25px;
+    border-radius: 5px;
+}
+
+.title {
+    color: var(--cor-vinho-escuro);
+    font-size: 20px;
+}
+
+.titulo {
+    margin-top: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.containerlabel label[for="senha"] {
+    margin-top: 2rem;
+    display: block;
+}
+
+.containerlabel input {
+    width: 35rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #aaa;
+    display: block;
+}
+.containerlabel input:focus {
+    border-color: var(--cor-vinho-escuro);
+}
+
+#enviar {
+    width: 35rem;
+    padding: .7rem 0;
+    margin-top: 4rem;
+    color: var(--cor-branca);
+    font-weight: 700;
+    background-color: var(--cor-vinho-escuro);
+    border-radius: 5px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all .5s;
+}
+#enviar:hover {
+    background-color: var(--cor-dourada);
+    border-color: black;
+}
