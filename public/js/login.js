@@ -22,8 +22,9 @@ const redirecionar = () => {
     // location.href = location.origin + path.join('/');
     // // location.href = path.join('/');
 
-    const newPage = '/index.html';
-    location.href = location.origin + newPage;
+    // const newPage = '/index.html';
+    // location.href = location.origin + newPage;
+    window.location.href = 'index.html';
 }
 
 loginForm.addEventListener('submit', function(event) {
